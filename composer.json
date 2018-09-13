@@ -1,0 +1,22 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "symfony/var-dumper": "^2.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kata\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kata\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": {
+      "php": "5.5"
+    }
+  }
+}
